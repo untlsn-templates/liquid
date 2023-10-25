@@ -13,6 +13,7 @@ import {
 } from 'solid-start';
 import 'virtual:uno.css';
 import 'untcss-reset';
+import LayoutController from '~/components/LayoutController';
 
 export default function Root() {
 	return (
@@ -25,9 +26,11 @@ export default function Root() {
 			<Body>
 				<Suspense>
 					<ErrorBoundary>
-						<Routes>
-							<FileRoutes />
-						</Routes>
+						<LayoutController>
+							<Routes>
+								<FileRoutes />
+							</Routes>
+						</LayoutController>
 					</ErrorBoundary>
 				</Suspense>
 				<Scripts />
