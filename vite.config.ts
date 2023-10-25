@@ -11,6 +11,9 @@ export default defineConfig({
 			imports: [
 				'solid-js',
 				'@solidjs/router',
+				{
+					clsx: ['clsx'],
+				},
 			],
 			dts: 'src/types/auto-import.d.ts',
 		}),
