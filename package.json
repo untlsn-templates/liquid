@@ -8,25 +8,27 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.8.8",
-    "esbuild": "^0.19.5",
-    "postcss": "^8.4.31",
-    "solid-start-node": "^0.3.8",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
+    "esbuild": "^0.19.5",
     "eslint": "^8.52.0",
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-solid": "^0.13.0"
+    "eslint-plugin-solid": "^0.13.0",
+    "postcss": "^8.4.31",
+    "solid-start-node": "^0.3.8",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
   },
   "dependencies": {
     "@solidjs/meta": "^0.28.6",
     "@solidjs/router": "^0.8.3",
     "@unocss/preset-rem-to-px": "^0.57.1",
+    "clsx": "^2.0.0",
     "solid-js": "^1.8.3",
     "solid-start": "^0.3.8",
     "unocss": "^0.57.1",
+    "unplugin-auto-import": "^0.16.6",
     "untcss": "^1.2.1",
     "untcss-reset": "^1.0.2"
   },

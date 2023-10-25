@@ -1,6 +1,3 @@
-import { useLocation } from '@solidjs/router';
-import { Show } from 'solid-js';
-
 // Paths where layouts don't show
 export const purePaths = [
 	'/auth',
